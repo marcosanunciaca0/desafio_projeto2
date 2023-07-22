@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horários de Atendimento</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    
+}
+.image-header {
+    display: block; 
+    margin: 0 auto;
+}    
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    
+}
+.table-1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.table-2 {
+    margin-left: auto;
+    margin-right: auto;
+}      
+
+table tr:nth-child(even) {
+        background-color: azure;
+        
+        }
+        table tr:hover td
+        {
+        background-color: #dbf301
+        }
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            
+            <ul>
+                <li><a href="projeto2.html" target="_parent"> Página Inicial</a></li><br>
+                <li><a href="projeto2p2.html" target="_parent"> Sobre nós</a></li><br>
+                <li><a href="projeto2p4.html" target="_parent"> Fale conosco</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <header>
+                    <h1 align="center" >Clinica odontológica Algoritmo</h1>
+                    <img src="/ESPECIALIDADES SITE 2.webp" alt="Imagem com as Especialidades da clinica" width="380" class="image-header"> 
+                </header>
+            </div>
+    
+            <div class="content">
+                <table border="1" width="250" class="table-2">
+                <thead>  
+                    <tr>
+                        <th Serviços Realizados>Especialidades</th>
+                        <th Dias de Funcionamento>Segunda a Sexta</th>
+                        <th>Sábados</th>
+                        <th>Feriados</th> 
+                     
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="1">
+                        <th>Emergência</th>
+                        <td>08h - 19h</td>
+                        <td>08h - 14h</td>
+                        <td>08h - 14h</td>
+                    </tr>
+                    <tr id="2">
+                        <th>Ortodontia</th>
+                        <td>08h - 19h</td>
+                        <td>08h - 14h</td>
+                        <td>08h - 14h</td>                        
+                    </tr>
+                    <tr id="3">
+                        <th>Dentista Pediatra</th>
+                        <td>08h - 19h</td>
+                        <td>08h - 14h</td>
+                        <td>08h - 14h</td>
+                    </tr>
+                    <tr id="4">
+                        <th>Atendimento Extra</th>
+                        <td>08h - 19h</td>
+                        <td>08h - 18h</td>
+                        <td>08h - 18h</td>
+                    </tr>
+            </tbody>
+                
+            </table>
+                <table border="1" width="250" align="" class="table-1">
+                    <tr>
+                        <th Especialidades>Serviços</th>
+                        <th>Preço</th>
+                    </tr>
+                    <tbody>
+                        <tr id="1">
+                            <td>Extração</td>
+                            <td>R$ 300,00</td>
+                        </tr>
+                        <tr id="2">
+                            <td>Ortodontia</td>
+                            <td>R$ 200,00</td>
+                        </tr>
+                        <tr id="3">
+                            <td>Limpeza</td>
+                            <td>R$ 510,00</td>
+                        </tr>
+                        <tr id="4">
+                            <td>Canal</td>
+                            <td>R$ 470,00</td>
+                        </tr>
+                        <tr id="5  ">
+                            <td>Obturação</td>
+                            <td>R$ 280,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>
+                    Nosso outro compromisso é fornecer um ambiente acolhedor e relaxante, garantindo que você se sinta tranquilo e confiante durante suas visitas. Além disso, estamos empenhados em educar nossos pacientes sobre a importância da saúde bucal e fornecer orientações personalizadas para garantir cuidados adequados em casa.
+                </p>
+                  
+            </div>
+                
+            <div class="footer">
+                <fieldset>
+                    <footer>
+                        Endereços:
+                        Rua da Piedade - Nazaré<br>
+                        CEP: 40.000-00 - Salvador - BA<br>
+                        Telefones: (71) 3333-0000 / 3333-1111                                   
+                    </footer>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

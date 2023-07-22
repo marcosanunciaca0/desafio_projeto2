@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.image-header {
+    display: block; 
+    margin: 0 auto;
+}  
+.content {
+    background-color: white;
+    min-height: 200px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">            
+            <ul>
+                <li><a href="projeto2.html"> Página Inicial</a></li><br>
+                <li><a href="projeto2p3.html"> Horário de atendimento</a></li><br>
+                <li><a href="projeto2p2.html"> Sobre nós</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <header>
+                    <h1 align="center" >Clinica odontológica Algoritmo</h1>
+                    <img src="/contato.png" width="380" class="image-header"> 
+                </header>
+                
+            </div>
+    
+            <div class="content">
+                <form name="contactus" onsubmit="alert('Agradecemos sua mensagem! Em breve manteremos contato');" method="POST" action="#">                                  
+                    <table>
+                        <tr>
+                            <th colspan="2">Formuláio de contato</th>
+                        </tr>
+                        <tr>
+                            <td><label>Nome</label></td>
+                            <td><input type="text" name="name" size="33" maxlength="1000"></td>
+                        </tr>
+                        <tr>
+                            <td><label>E-mail</label></td>
+                            <td><input type="email" name="e-mail" size="33" maxlength="1000"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Assunto</label></td>
+                            <td><input type="text" name="assunto" size="33" maxlength="1000"></td>
+                        </tr> 
+                        <tr>                       
+                            <td><label>Mensagem</label></td>
+                            <td><textarea name="comentario" cols="25" rows="7" ></textarea></td>
+                        </tr> 
+                    </table>           
+                                        
+                    <button type="submit">Enviar </button><button type="reset">Limpar</button>
+                </form> 
+                <div style="text-align: right;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62207.44697964608!2d-38.58134508132932!3d-12.974062532825274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604e8854cbf85%3A0xf6c8c0d28fb1c729!2sSecretaria%20da%20Seguran%C3%A7a%20P%C3%BAblica%20da%20Bahia!5e0!3m2!1spt-BR!2sbr!4v1689988801072!5m2!1spt-BR!2sbr" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div> 
+                              
+            </div>            
+    
+            <div class="footer">
+                <fieldset>
+                    <footer>
+                        Endereços:
+                        Rua da Piedade - Nazaré<br>
+                        CEP: 40.000-00 - Salvador - BA<br>
+                        Telefones: (71) 3333-0000 / 99004-0001 (WhatsApp)                                   
+                    </footer>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
